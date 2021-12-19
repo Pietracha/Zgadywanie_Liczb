@@ -1,9 +1,13 @@
+"""
+Program that asks user to guess the number randomly chosen by computer.
+Computer checks the input and states "Too low" or "Too high" to guide the user.
+"""
 from random import randint
-
 
 def draw():
     """
-    Function asks the user to provide a number and checks if it is an integer value. Repeats the request if it is not.
+    Function asks the user to provide a number and checks if it is an integer value.
+    Repeats the request if it is not.
     :rtype: int
     :return: number provided by the user as int
     """
