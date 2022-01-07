@@ -35,4 +35,5 @@ def check():
     print("You win!")
 
 
-check()
+if __name__ == '__main__':
+    check()
